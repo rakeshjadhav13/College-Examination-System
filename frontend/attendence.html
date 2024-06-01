@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title> ATTENDANCE & CIE ENTRY FORM </title>
+   
+     <link rel="stylesheet" href="cie.css">
+     <link rel="stylesheet" href="cie.css">
+       <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.typekit.net/xlm3vbz.css">
+       <link rel="icon" type="image/x-icon" href="icon.jpg">
+       <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Fredoka+One&family=Righteous&family=Secular+One&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+      <div class="header">
+        <h1><img class="logo" src="bmsce.jpeg" alt="BMSCE LOGO">
+        BMSCE EXAMINATION SYSTEM
+        </h1>
+        <a class="back" href="daprofile.html">Back</a>
+        <a class="logout" href="login3.html">Logout</a>
+       
+       
+    </div> 
+       
+        <div class="appl">
+
+          <h2>ATTENDANCE & CIE ENTRY FORM</h2>
+         <form method="post" action="cie.php">  
+    
+          <div class="content">
+        <label> NAME </label><br>
+        <input type="text" name="name" id="name" pattern="^[A-Za-z .-]+$" required>
+      </br>
+        <label> USN </label><br>
+        <input type="text" name="usn" id="usn" pattern="1BM[0-9]{2}[A-Z]{2}[0-9]{3}" maxlength="10" required>
+      </br>
+        <label>MAIL </label><br>
+        <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-]+@bmsce.ac.in$" required>
+      </br>
+        <label> MOBILE  </label><br>
+        <input type="text" name="mobile" id="mobile" placeholder="1234556789" pattern="[0-9]{10}" maxlength="10" required>
+       </br>
+
+       <div class="se">
+         <label>SELECT THE SEMESTER:</label>
+          <input type="radio" name="sem" id="1sem" value="2nd sem">1st sem </input>
+        <input type="radio" name="sem" id="2sem" value="2nd sem">2nd sem </input>
+        <input type="radio" name="sem" id="3sem" value="3rd sme" > 3rd sem </input>
+        <input type="radio" name="sem" id="4sem" value="4th sem" > 4th sem </input>
+        <input type="radio" name="sem" id="5sem"  value="5th sem"> 5th sem </input>
+        <input type="radio" name="sem" id="6sem"  value="6th sem"> 6th sem </input>
+        <input type="radio" name="sem" id="7sem"  value="7th sem"> 7th sem </input>
+        <input type="radio" name="sem" id="8sem"  value="8th sem"> 8th sem </input>
+        <br/>   
+       </div>
+          </div>
+        
+       <p>Enter The Details Of  The Courses</p>
+       <div class="container">
+         <table>
+           <thead>
+             <tr>
+               <th>Course Code</th>
+               <th>Marks</th>
+                <th>Attendance</th>               
+           </thead>
+           <tbody>
+             <tr>
+                 <td> <input type="text" name="course1" id="course1" pattern="[a-zA-Z0-9]+" maxlength="10"></td>
+                 <td>  <input type="text" name="marks1" id="marks1" pattern="[0-9]{2}" maxlength="2" required></td>
+                 <td>  <input type="text" name="attendance1" id="attendance1" pattern="[0-9]{1,3}" maxlength="3" required></td>
+             </tr>
+               
+             <tr>
+                 <td> <input type="text" name="course2" id="course2" pattern="[a-zA-Z0-9]+" maxlength="10"></td>
+                  <td> <input type="text" name="marks2" id="marks2" pattern="[0-9]{2}" maxlength="2" required></td>
+                  <td>  <input type="text" name="attendance2" id="attendance2" pattern="[0-9]{1,3}" maxlength="3" required></td>
+             </tr>
+               
+             <tr>
+                 <td> <input type="text" name="course3" id="course3" pattern="[a-zA-Z0-9]+" maxlength="10"></td>
+                 <td>  <input type="text" name="marks3" id="marks3" pattern="[0-9]{2}" maxlength="2" required></td>
+                 <td>  <input type="text" name="attendance3" id="attendance3"  pattern="[0-9]{1,3}" maxlength="3" required></td>
+             </tr>
+             <tr>
+                 <td> <input type="text" name="course4" id="course4" pattern="[a-zA-Z0-9]+" maxlength="10"></td>
+                 <td>  <input type="text" name="marks4" id="marks4" pattern="[0-9]{2}" maxlength="2" required></td>
+                 <td>  <input type="text" name="attendance4" id="attendance4"  pattern="[0-9]{1,3}" maxlength="3" required></td>
+             </tr>
+             <tr>
+                 <td> <input type="text" name="course5" id="course5" pattern="[a-zA-Z0-9]+" maxlength="10"></td>
+                  <td> <input type="text" name="marks5" id="marks5" pattern="[0-9]{2}" maxlength="2" required></td>
+                  <td>  <input type="text" name="attendance5" id="attendance5"  pattern="[0-9]{1,3}" maxlength="3" required></td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+
+       <div class="subm">
+        <button  type="submit" name="submit" value="SUBMIT" target="_self">Submit</button>
+     </div>
+     
+     <div class="res">
+         <button class="res" type="reset" value="RESET" onclick="alert('Are you sure to reset the application.All the filled data will be lost.')">Reset</button>
+     </div>
+      
+    
+  </form>
+        </div>
+</body>
+</html>
+
+

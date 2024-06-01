@@ -1,0 +1,319 @@
+<html>
+    
+
+<head>
+   <title>EXAM APPLICATION FORM</title>
+   <link rel="stylesheet" href="eastyle.css">
+   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.typekit.net/xlm3vbz.css">
+   <link rel="icon" type="image/x-icon" href="icon.jpg">
+   <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Fredoka+One&family=Righteous&family=Secular+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+    
+<script type="text/javascript">
+   
+   function showhide1()
+   {
+      var checkbox = document.getElementById("3sem");
+      var hiddeninputs = document.getElementsByClassName("hidden");
+      for(var i=0;i!=hiddeninputs.length;i++)
+      {
+      if(checkbox.checked)
+      {
+          hiddeninputs[i].style.display="block";
+      }
+      else{
+        hiddeninputs[i].style.display="none";  
+      }
+    } 
+
+   }
+   
+   
+   function showhide2()
+   {
+      var checkbox1 = document.getElementById("1sem");
+      var hiddeninputs = document.getElementsByClassName("hidden1");
+      for(var i=0;i!=hiddeninputs.length;i++){
+      if(checkbox1.checked){
+          hiddeninputs[i].style.display="block";
+    }
+      else
+      {
+        hiddeninputs[i].style.display="none";  
+      }
+    } 
+   }
+   
+   
+   function showhide3()
+   {
+      var checkbox2 = document.getElementById("2sem");
+      var hiddeninputs = document.getElementsByClassName("hidden2");
+      for(var i=0;i!=hiddeninputs.length;i++){
+      if(checkbox2.checked)
+      {
+          hiddeninputs[i].style.display="block";
+      }
+      else
+      {
+        hiddeninputs[i].style.display="none";  
+      }
+    } 
+   }
+   
+   
+   function showhide4()
+   {
+      var checkbox3 = document.getElementById("4sem");
+      var hiddeninputs = document.getElementsByClassName("hidden3");
+      for(var i=0;i!=hiddeninputs.length;i++)
+      {
+      if(checkbox3.checked)
+      {
+          hiddeninputs[i].style.display="block";
+      }
+      else
+      {
+        hiddeninputs[i].style.display="none";  
+      }
+    } 
+   }
+   
+   
+   function showhide5()
+   {
+      var checkbox4 = document.getElementById("5sem");
+      var hiddeninputs = document.getElementsByClassName("hidden4");
+      for(var i=0;i!=hiddeninputs.length;i++)
+      {
+      if(checkbox4.checked)
+      {
+          hiddeninputs[i].style.display="block";
+      }
+      else{
+        hiddeninputs[i].style.display="none";  
+      }
+    } 
+   }
+   
+   
+   function showhide6()
+   {
+      var checkbox5 = document.getElementById("6sem");
+      var hiddeninputs = document.getElementsByClassName("hidden5");
+      for(var i=0;i!=hiddeninputs.length;i++)
+      {
+      if(checkbox5.checked)
+      {
+          hiddeninputs[i].style.display="block";
+      }
+      else
+      {
+        hiddeninputs[i].style.display="none";  
+      }
+    } 
+   }
+   
+   
+   function showhide7()
+   {
+      var checkbox6 = document.getElementById("7sem");
+      var hiddeninputs = document.getElementsByClassName("hidden6");
+      for(var i=0;i!=hiddeninputs.length;i++)
+      {
+      if(checkbox6.checked)
+      {
+          hiddeninputs[i].style.display="block";
+      }
+      else
+      {
+        hiddeninputs[i].style.display="none";  
+      }
+    } 
+   }
+   
+   
+   function showhide8()
+   {
+      var checkbox7 = document.getElementById("8sem");
+      var hiddeninputs = document.getElementsByClassName("hidden7");
+      for(var i=0;i!=hiddeninputs.length;i++)
+      {
+      if(checkbox7.checked)
+      {
+          hiddeninputs[i].style.display="block";
+      }
+      else
+      {
+        hiddeninputs[i].style.display="none";  
+      }
+    } 
+   }
+
+</script>
+
+<body>
+  <div class="header">
+    <h1><img class="logo" src="bmsce.jpeg" alt="BMSCE LOGO">
+    BMSCE EXAMINATION SYSTEM
+    </h1>
+    <a class="back" href="sprofile.html">Back</a>
+    <a class="logout" href="login1.html">Logout</a>
+   
+   
+</div> 
+       
+ <div class="appl">
+     
+     <h2>Exam Application Form</h2>
+
+    <form  method="post" action="insert.php">
+         
+      <div class="content">
+       
+        <label> ENTER YOUR NAME</label></br>
+        <input type="text" name="name" id="name" pattern="^[A-Za-z .-]+$" required></br>
+         
+        <label> ENTER YOUR USN</label></br>
+        <input type="text" name="usn" id="usn" pattern="1BM[0-9]{2}[A-Z]{2}[0-9]{3}" maxlength="10" required><br>   
+              
+        <label> ENTER THE CHALLAN NUMBER</label></br>
+        <input type="text" name="challan" id="challan" pattern="[0-9]{10}" maxlength="10" placeholder="Eg:1234556789" required></br>
+        
+        <label>  FEES PAID</label></br>
+        <input type="n" name="fees" id="fees" pattern="[0-9]{5}" maxlength="5" placeholder="Eg:100000" required></br>
+        
+        <label> DATE</label></br>
+        <input type="date" name="date" id="date" required></br>
+        
+        <label for="mobile"> ENTER YOUR MOBILE NUMBER</label></br>
+        <input type="tel" id="phone" name="mobile" placeholder="1234556789" pattern="[0-9]{10}" maxlength="10" required></br>
+        
+        <label>ENTER YOUR COLLEGE MAIL ID</label></br>
+        <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-]+@bmsce.ac.in$" required></br>
+        
+        <label>ENTER YOUR BRANCH</label></br>
+        <input type="text" name="branch" pattern="CSE" id="branch"required><br/>
+        
+        <div class="se">
+        <label>SELECT YOUR CURRENT SEMESTER</label><br>
+          <input type="checkbox" name="sem" id="1sem"  value="1st sem" onclick="showhide2()" > 1st sem </input>
+          <input type="checkbox" name="sem" id="2sem" value="2nd sem" onclick="showhide3()" > 2nd sem </input>
+          <input type="checkbox" name="sem" id="3sem" value="3rd sme" onclick="showhide1()" > 3rd sem </input>
+          <input type="checkbox" name="sem" id="4sem" value="4th sem" onclick="showhide4()" > 4th sem </input>
+          <input type="checkbox" name="sem" id="5sem"  value="5th sem"onclick="showhide5()" > 5th sem </input>
+          <input type="checkbox" name="sem" id="6sem"  value="6th sem"onclick="showhide6()" > 6th sem </input>
+          <input type="checkbox" name="sem" id="7sem"  value="7th sem"onclick="showhide7()" > 7th sem </input>
+          <input type="checkbox" name="sem" id="8sem"  value="8th sem"onclick="showhide8()" > 8th sem </input>
+          <br/>  
+        </div>  
+        <div class="as">
+        <div class="hidden">
+           <input type="checkbox" name="sub[]" value="Computer Organisation And Archietecture">Computer Organisation And Archietecture</input></br>
+           <input type="checkbox" name="sub[]" value="MicroProcessor And Micro Controller">MicroProcessor And Micro Controller</input></br>
+           <input type="checkbox" name="sub[]" value="Data Structure in C">Data Structure in C</input></br>
+           <input type="checkbox" name="sub[]" value="Object Oriented Java Programming">Object Oriented Java Programming</input></br>
+           <input type="checkbox" name="sub[]" value="Logic Design">Logic Design</input></br>
+           <input type="checkbox" name="sub[]" value="Statistics And Discrete Mathematics">Statistics And Discrete Mathematics</input>
+        </div>
+            
+        <div class="hidden1">
+            <input type="checkbox" name="sub[]" value="Engineering Mathematics-1">Engineering Mathematics-1</input></br>
+            <input type="checkbox" name="sub[]" value="Engineering Chemistry">Engineering Chemistry</input></br>
+            <input type="checkbox" name="sub[]" value="Engineering Mechanics">Engineering Mechanics</input></br>
+            <input type="checkbox" name="sub[]" value="Computer Aided Engineering Drawing "> Computer Aided Engineering Drawing </input></br>
+            <input type="checkbox" name="sub[]" value="Elements of Electrical Engineering"> Elements of Electrical Engineering </input></br>
+            <input type="checkbox" name="sub[]" value="Functional English ">Functional English </input>
+        </div>
+       
+        <div class="hidden2">
+            <input type="checkbox" name="sub[]" value="Engineering Mathematics-2">Engineering Mathematics-2</input></br>
+            <input type="checkbox" name="sub[]" value="Engineering Physics">Engineering Physics</input></br>
+            <input type="checkbox" name="sub[]" value="Elements of Mechanical Enginerring">Elements of Mechanical Enginerring</input></br>
+            <input type="checkbox" name="sub[]" value="C Programming"> C Programming </input></br>
+            <input type="checkbox" name="sub[]" value="Elements of Electronical Engineering"> Elements of Electronical Engineering </input></br>
+            <input type="checkbox" name="sub[]" value="Universal Human Values">Universal Human Values </input>   
+        </div>
+        
+        <div class="hidden3">
+            <input type="checkbox" name="sub[]" value="Linear Algebra">Linear Algebra</input></br>
+            <input type="checkbox" name="sub[]" value="Data BAse Management System">Data BAse Management System</input></br>
+            <input type="checkbox" name="sub[]" value="Theortical Foundations of Computation">Theortical Foundations of Computation</input></br>
+            <input type="checkbox" name="sub[]" value="Analysis And Design of Algorithms">Analysis And Design of Algorithms</input></br>
+            <input type="checkbox" name="sub[]" value="Operating Systems">Operating Systems</input></br>
+           <input type="checkbox" name="sub[]" value="Constitution of India ,Proffessional Ethics and Human Rights">Constitution of India ,Proffessional Ethics and Human Rights</input>
+        </div>
+        
+        <div class="hidden4">
+            <input type="checkbox" name="sub[]" value="Artificial Intelligence">Artificial Intelligence</input></br>
+            <input type="checkbox" name="sub[]" value="Computer Networks">Computer Networks</input></br>
+            <input type="checkbox" name="sub[]" value="Unix Shell and System Programming">Unix Shell and System Programming</input></br>
+            <input type="checkbox" name="sub[]" value="Software Engineering">Software Engineering</input></br>
+            <input type="checkbox" name="sub[]" value="Software Project Management and Finance">Software Project Management and Finance</input></br>
+            <input type="checkbox" name="sub[]" value="Internet of Things">Internet of Things</input></br>
+            <input type="checkbox" name="sub[]" value="Advanced Java and J2EE">Advanced Java and J2EE</input></br>
+            <input type="checkbox" name="sub[]" value="Advanced Data Structures">Advanced Data Structures</input></br>
+            <input type="checkbox" name="sub[]" value="Advanced Algorithms">Advanced Algorithms</input></br>
+            <input type="checkbox" name="sub[]" value="System Software and Compiler Design">System Software and Compiler Design</input></br>
+            <input type="checkbox" name="sub[]" value="Advanced Computer Archietecture">Advanced Computer Archietecture</input></br>
+        </div>
+       
+        <div class="hidden5">
+            <input type="checkbox" name="sub[]" value="Machine Learning ">Machine Learning </input></br>
+            <input type="checkbox" name="sub[]" value="Cryptography and Network Security">Cryptography and Network Security</input></br>
+            <input type="checkbox" name="sub[]" value="Object Oriented Modelling and Design">Object Oriented Modelling and Design</input></br>
+            <input type="checkbox" name="sub[]" value="Management and Entrepreneurship">Management and Entrepreneurship</input></br>
+            <input type="checkbox" name="sub[]" value="Computer Graphics & Visualization">Computer Graphics & Visualization </input></br>
+            <input type="checkbox" name="sub[]" value="Big Data Analytics">Big Data Analytics</input></br>
+            <input type="checkbox" name="sub[]" value="Natural Language Processing">Natural Language Processing</input></br>
+            <input type="checkbox" name="sub[]" value="Java Programming"> Java Programming</input></br>
+            <input type="checkbox" name="sub[]" value="Robot Process Automation Design and Development">Robot Process Automation Design and Development </input></br>
+        </div>
+        
+        <div class="hidden6">
+            <input type="checkbox" name="sub[]" value="Biology for Engineers">Biology for Engineers</input></br>
+            <input type="checkbox" name="sub[]" value="Cyber Law , Forensics and IPR">Cyber Law , Forensics and IPR </input></br>
+            <input type="checkbox" name="sub[]" value="Blockchain">Blockchain</input></br>
+            <input type="checkbox" name="sub[]" value="NoSQL Database">NoSQL Database</input></br>
+            <input type="checkbox" name="sub[]" value="Multimedia Computing">Multimedia Computing </input></br>
+            <input type="checkbox" name="sub[]" value="Distributed Systems">Distributed Systems</input></br>
+            <input type="checkbox" name="sub[]" value="Software Architecture and Design Patterns">Software Architecture and Design Patterns</input></br>
+            <input type="checkbox" name="sub[]" value="Cloud Computing">Cloud Computing</input></br>
+            <input type="checkbox" name="sub[]" value="Data Science">Data Science </input></br>
+            <input type="checkbox" name="sub[]" value=" Python Programming "> Python Programming </input></br>
+          </div>
+       
+         <div class="hidden7">
+            <input type="checkbox" name="sub[]" value="Cloud Computing">Cloud Computing</input></br>
+            <input type="checkbox" name="sub[]" value="Green Computing"> Green Computing </input></br>
+            <input type="checkbox" name="sub[]" value="Big Data Analytics"> Big Data Analytics</input></br>
+         </div><br>
+        </div>
+       
+        
+         <div class="subm">
+            <button  type="submit" name="submit" value="SUBMIT" target="_self">Submit</button>
+         </div>
+         
+         <div class="res">
+             <button class="res" type="reset" value="RESET" onclick="alert('Are you sure to reset the application.All the filled data will be lost.')">Reset</button>
+         </div>
+       
+       
+        </div>
+      
+      </form>
+    </div>
+           
+  </body>
+
+
+</html>

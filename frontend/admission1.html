@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>ADMISSION FORM</title>
+    <link rel="stylesheet" href="admission.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.typekit.net/xlm3vbz.css">
+   <link rel="icon" type="image/x-icon" href="icon.jpg">
+   <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Fredoka+One&family=Righteous&family=Secular+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+  
+
+    <body>
+        <div class="header">
+            <h1><img class="logo" src="bmsce.jpeg" alt="BMSCE LOGO">
+            BMSCE EXAMINATION SYSTEM
+            </h1>
+            <a class="back" href="register.html">Back</a>
+           
+        </div> 
+        <div class="appl">
+     
+            <h2>DEPT. ASSISTANT REGISTRATTION</h2>
+        <form  method="post" action="trial31.php" enctype="multipart/form-data">
+         
+            <div class="content">
+          
+  
+            </div>
+
+            
+             <input  class="ii" type="file" name="photo"id="photo" required>
+
+              <label>NAME</label></br>
+              <input type="text" name="name" id="name" pattern="^[A-Za-z .-]+$" required></br>
+               
+              <label>ID</label></br>
+              <input type="text" name="usn" id="usn" pattern="1BM[0-9]{2}[A-Z]{2}[0-9]{3}" maxlength="10" required><br>   
+              
+              <label> DOB</label></br>
+              <input type="date" name="date" id="date" required></br>
+              
+              <label>COLLEGE MAIL ID</label></br>
+              <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-]+@bmsce.ac.in$" required></br>
+              
+              <label>BRANCH</label></br>
+              <input type="text" name="branch" pattern="CSE" id="branch"required><br/>
+              
+              <label>PASSWORD</label><br>
+              <input type ="Password" name="Password"   id="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required="">
+             
+              <div class="subm">
+                <button  type="submit" name="submit" value="SUBMIT" target="_self">Register</button>
+             </div>
+             
+            
+           
+           
+            </div>
+          
+          </form>
+        </div>
+       
+    </body>
+</html>

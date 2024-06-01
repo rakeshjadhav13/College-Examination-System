@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>COE ADMIN</title>
+<link rel="stylesheet" href="coeprofile.css">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="ai.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="header">
+        <h1><img class="logo" src="bmsce.jpeg" alt="BMSCE LOGO">
+        BMSCE EXAMINATION SYSTEM
+        </h1>
+        <a class="logout" href="login2.html">Logout</a>
+    </div> 
+
+    <div class="apc">
+    <img class="bg" src="ap2.png" alt="gif">
+    <div class="scb">
+    <ul>
+        <li><a class="sb" href="studentlist.php" target="_self">Student List</a></li>
+        
+        <div class="dropdown">
+        
+        <li><a class="sb" onclick="myFunction()" target="_self">Student Details</a></li>
+         <div id="myDropdown" class="dropdown-content">
+            <a href="cier.php">CIE </a>
+            <a href="attr.php">Attendance</a>
+        </div>
+        <li><a class="sb" href="mainr.php" target="_self">Eligibility List</a></li>
+        </div>
+    
+    
+    
+    
+    
+    
+    </ul>
+   
+
+    </div>
+   
+</div>
+
+<script>
+    
+    function myFunction()
+    {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    
+    window.onclick = function(event)
+    {
+      if (!event.target.matches('.sb')) 
+      {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++)
+        {
+         var openDropdown = dropdowns[i];
+         if (openDropdown.classList.contains('show')) 
+        {
+         openDropdown.classList.remove('show');
+        }
+        }
+      }
+    }
+
+
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

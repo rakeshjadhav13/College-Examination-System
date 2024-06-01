@@ -1,0 +1,210 @@
+body
+{
+  background: url("q4.png") no-repeat center fixed ;  
+    background-size: cover;
+   
+}
+
+img.logo
+{
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: -1.5vw;
+    padding-right: 1.5vw; 
+   
+  
+   
+}
+h1
+{
+    font-size: 5vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(0, 59, 59);
+    margin-top: -1.5vw;
+    
+}
+.header
+{
+    background-color: rgba(42, 177, 170, 0.8) ;
+   
+    border-radius: 1.2%;
+   
+}
+
+a.back
+{
+   
+    font-family: 'Fredoka One', cursive;
+    text-decoration:none;
+    color:black;
+    font-size: 1.3vw;
+    float: right;
+    margin-right: 2.8vw;
+    margin-top: -8vw;
+    padding-bottom: 1vw;
+
+
+    
+  
+   
+}
+
+
+
+
+a.back:hover
+{
+   
+    background-color: rgb(116, 42, 165);
+    padding: 0.5vw;
+    border-radius: 5%;
+    color: darkorange;
+  
+}
+
+
+.appl{
+   
+margin-left:25%;
+  width: 50vw;
+  padding: 1vw;
+  
+  background: rgb(138, 134, 134);
+  
+  background-size: cover;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(36, 0, 94, 0.6) , 0 15px 25px rgba(36, 0, 94, 0.6);
+  border-radius: 10px;
+  margin-bottom: 5vw;
+}
+
+.appl h2 
+{
+  
+
+  padding: 0;
+  background-color: #F7FD04;
+  color:#d11f87;
+  text-align: center;
+  font-size: 2vw;
+  font-family: 'Bungee', cursive;
+  
+}
+
+.appl label
+{
+  color:#08f8e4;
+ 
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.appl input
+{
+    width: 50%;
+    margin-top: 2PX;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+  border-style: solid;
+    border-width: 0.05in;
+    background: none;
+    
+}
+.ii
+{
+  float: right;
+  height: 9vw;
+  width: 2vw;
+  border: 0.2px solid black;
+  margin-right: 1vw;
+}
+
+
+
+.image
+{
+  cursor: pointer;
+  margin-left: 0.8vw;
+   border: 0.2vw  solid yellowgreen;
+    border-radius: 8%; padding: 0.3vw;
+   background-color:darkmagenta;
+}
+
+.image:hover
+{
+  background-color:yellowgreen;
+  border: 0.2vw  solid darkmagenta;
+  color:#d11f87;
+}
+
+input[type='file'] 
+{
+  height: 8vw;
+  width:8vw;
+  margin-right: 2vw;
+}
+
+
+input[type='text'] 
+{
+  
+  outline: none;
+  font-family: 'Righteous', cursive;
+  font-size: 1.2vw;
+  color:#f793f2f5;
+}
+input[type='date'],[type='tel'] ,[type='n'],[type='email'],[type=password]
+{
+ 
+  outline: none;
+  font-family: 'Righteous', cursive;
+  font-size: 1.2vw;
+  color:#f793f2f5;
+}
+
+.content
+   {
+    
+    font-weight: bold;
+    padding-left:100px;
+    margin:15px;
+   }
+   
+  
+   button
+   {
+    margin-top: 20px;
+    margin-left:40%;
+    width:150px;
+    height:50px;
+    font-family: 'Fredoka One', cursive; 
+    font-size: 1.2vw;
+    border-radius: 5%;
+    cursor: pointer;
+    background-color:snow;
+    
+   }
+   .subm button:hover 
+   {
+    background:chartreuse;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px chartreuse,
+                0 0 25px chartreuse,
+                0 0 50px chartreuse,
+                0 0 100px chartreuse;
+  }
+  
+ 
+  input[type=checkbox]
+  {
+    color: chartreuse;
+    
+  }
+
+
+
+
+

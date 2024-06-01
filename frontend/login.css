@@ -1,0 +1,158 @@
+body
+{
+   
+    font-family:sans-serif;
+    background:url(bmse1.png);
+    background-size:cover;
+  
+}
+img.logo
+{
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: -1.5vw;
+    padding-right: 1.5vw; 
+   
+  
+   
+}
+h1
+{
+    font-size: 5vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(0, 59, 59);
+    margin-top: -1.5vw;
+    
+}
+.header
+{
+    background-color: rgba(42, 177, 170, 0.8) ;
+   
+    border-radius: 1.2%;
+   
+}
+
+a.logout
+{
+   
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    color:black;
+    font-size: 1.3vw;
+    float: right;
+    margin-right: 2vw;
+    margin-top: -5vw;
+    padding-bottom: 1vw;
+
+    
+  
+   
+}
+
+
+
+a.logout:hover
+{
+   
+    background-color: rgb(116, 42, 165);
+    padding: 1vw;
+    border-radius: 5%;
+    color: darkorange;
+  
+
+
+}
+
+.box
+{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:400px;
+    height:300px;
+    padding:25px;
+    background:rgba(0,0,0,.8);
+    box-sizing:border-box;
+    box-shadow:0 15px 25px rgba(0,0,.5);
+    border-radius:10px;
+  
+
+}
+.box h2
+{
+    margin:0 0 30px;
+    padding:0;
+    color:white;
+    text-align:center;
+}
+.box .inputBox
+{
+    position:relative;
+}
+.box .inputBox input
+{
+    width:100%;
+    padding:10px 0;
+    font: size 16px;
+    color:aqua;
+    letter-spacing: 1px;
+    margin-bottom:30px;
+    border:none;
+    border-bottom:1px solid #fff;
+    outline:none;
+    background:transparent; 
+}
+.box .inputBox label
+{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:10px 0;
+    font-size:16px;
+    color:white;
+    pointer-events: none;
+    transition:.5s;
+    
+}
+.box .inputBox input:focus~label,
+.box .inputBox input:valid~label,
+.box .inputBox input:invalid~label
+
+{
+    top:-18px;
+    left:0px;
+    color:#03a9f4;
+    font-size:12px;
+   
+}
+.box input[type="submit"]
+{
+    background:transparent;
+    border:none;
+    outline:none;
+    color:aqua;
+    background: #03a9f4;
+    margin-left: 7vw;
+    
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.sr
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    float: right;
+    margin-top: 0.5vw;
+}
+.sr:hover
+{
+    color: darkblue;
+    background-color:yellow;
+    padding: 0.5vw;
+    border-radius: 5%;
+   
+}

@@ -1,0 +1,96 @@
+
+
+body
+{
+   
+    background: url("hp2.png") no-repeat center fixed ;
+    background-size:cover;
+    overflow: hidden;
+ 
+}
+
+img
+{
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: -1vw;
+    padding-right: 1vw;
+    
+
+}
+h1
+{
+    font-size: 6vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(0, 59, 59);
+    margin-top: -2.5vw;
+    margin-left: 0.5vw;
+    
+   
+}
+
+.header
+{
+    background-color: rgba(42, 177, 170, 0.8) ;
+   
+    border-radius: 1.2%;
+   height: 13vw;
+   
+}
+ul
+{
+    list-style-type: none;
+    margin-top: -11vw;
+    overflow: hidden;
+
+    float: right;
+    margin-right: 1vw;
+   
+}
+li 
+{
+    float: right;
+    padding: 1vw 1vw;
+    font-size: 1.5vw;
+  
+}
+  
+li a 
+{
+    display: block;
+   
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    color:black;
+   
+}
+
+h2
+{
+    text-align: center;
+    font-size:2vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(110, 255, 255);
+    font-size: 5vw;
+    word-spacing: 1vw;
+    padding-top: 10vw;
+    text-shadow: 0.1vw 0.1vw 1vw red;
+    
+    
+    
+}
+
+
+a:hover
+{
+    position: relative;
+    background-color: rgb(116, 42, 165);
+    padding: 1vw;
+    border-radius: 5%;
+    color: darkorange;
+
+
+}
+
+

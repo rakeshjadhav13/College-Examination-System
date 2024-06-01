@@ -1,0 +1,122 @@
+body
+{
+  background: url("g2.png") no-repeat center fixed ;  
+    background-size: cover;
+    overflow: hidden;
+   
+}
+
+img.logo
+{
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: -1.5vw;
+    padding-right: 1.5vw; 
+   
+  
+   
+}
+h1
+{
+    font-size: 5vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(0, 59, 59);
+    margin-top: -1.5vw;
+    
+}
+.header
+{
+    background-color: rgba(42, 177, 170, 0.8) ;
+   
+    border-radius: 1.2%;
+   
+}
+
+
+a.logout
+{
+   
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    color:black;
+    font-size: 1.3vw;
+    float: right;
+    margin-right: 2vw;
+    margin-top: -5vw;
+    padding-bottom: 1vw;
+
+    
+  
+   
+}
+
+
+
+a.logout:hover
+{
+   
+    background-color: rgb(116, 42, 165);
+    padding: 0.5vw;
+    border-radius: 5%;
+    color: darkorange;
+  
+
+
+}
+a.back
+{
+   
+    font-family: 'Fredoka One', cursive;
+    text-decoration:none;
+    color:black;
+    font-size: 1.3vw;
+    float: right;
+    margin-right: 2.8vw;
+    margin-top: -8vw;
+    padding-bottom: 1vw;
+
+
+    
+  
+   
+}
+
+
+
+a.back:hover
+{
+   
+    background-color: rgb(116, 42, 165);
+    padding: 0.5vw;
+    border-radius: 5%;
+    color: darkorange;
+  
+
+
+}
+
+
+
+
+
+p
+{
+    text-align: center;
+    font-size:2vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(110, 255, 255);
+    font-size: 5vw;
+    word-spacing: 1vw;
+   
+    text-shadow: 0.1vw 0.1vw 1vw red;
+    
+    
+    
+}
+
+
+
+
+
+
+

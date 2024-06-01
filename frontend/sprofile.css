@@ -1,0 +1,207 @@
+body{
+  
+  background: url("sb2.png") no-repeat center fixed ;
+  background-size: cover;
+  overflow: hidden;
+
+}
+img.logo
+{
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: -1.5vw;
+    padding-right: 1.5vw; 
+   
+  
+   
+}
+h1
+{
+    font-size: 5vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(0, 59, 59);
+    margin-top: -1.5vw;
+    
+}
+.header
+{
+    background-color: rgba(42, 177, 170, 0.8) ;
+   
+    border-radius: 1.2%;
+   
+}
+
+a.logout
+{
+   
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    color:black;
+    font-size: 1.3vw;
+    float: right;
+    margin-right: 2vw;
+    margin-top: -5vw;
+    padding-bottom: 1vw;
+
+    
+  
+   
+}
+
+
+
+a.logout:hover
+{
+   
+    background-color: rgb(116, 42, 165);
+    padding: 1vw;
+    border-radius: 5%;
+    color: darkorange;
+  
+
+
+}
+
+
+
+
+img.spb
+{
+  height: 50vw; 
+  margin-top: -7vw;
+  width: 40vw;
+
+
+
+
+}
+
+ul
+{
+  float: right;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 5vw;
+ 
+  margin-right: 9vw
+}
+li
+{
+  padding-bottom: 8vw;
+  font-family: 'Fredoka One', cursive;
+  font-size: 3.2vw;
+  text-align: center;
+  
+ 
+ 
+ 
+}
+a.sb
+{
+  position: relative;
+  text-decoration: none;
+  color:lawngreen;
+  padding: 1vw;
+  border-radius: 3%;
+  background-color:#FF0075;
+  
+}
+  
+ 
+ a.sb:hover
+ {
+   position: static;
+  color:#FF0075;
+  
+  background-color:  #deff4f;
+  box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black,0 0 200px black;
+  -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+ 
+ }
+ 
+
+ table 
+ {
+     width: 40%;
+     border-collapse: collapse;
+     
+
+    
+     margin-left: 5%;
+     overflow: visible;
+     
+     
+    
+     text-align: left;
+     float: left;
+     border-radius: 1%;
+     padding-top: 10%;
+     background-color:orange;
+     box-sizing: border-box;
+     box-shadow: 0 0 40px rgba(0,0,0,0.9);
+ }
+   
+   th 
+   {
+    
+     padding-left: 10%;
+   
+     padding-bottom: 1.5vw;
+     
+     color: rgb(255, 255, 255);
+    
+   }
+   td 
+   {
+    
+     padding-left: 10%;
+    
+   
+     padding-bottom: 1.5vw;
+     
+     color: rgb(255, 255, 255);
+    
+   }
+   
+   
+  .r1
+  {
+    color: rgb(116, 42, 165);
+ padding-left: 10%;
+ font-family: 'Pacifico', cursive;
+  font-size: 3vw;
+  text-decoration:underline;
+  
+  
+  
+  }
+  .r2
+  {
+    color: #FF0075;
+  padding-left: 25%;
+ 
+ 
+  }
+
+  .r3
+  {
+    color:#FF0075;
+    font-size: 1.5vw;
+    font-family: 'Ubuntu', sans-serif;
+    text-indent: 2vw;
+  }
+  .r4
+  {
+    color:darkslategray;
+    font-size: 1.5vw;
+    font-family: 'Fredoka One', cursive;
+    text-indent: 2vw;
+    
+ 
+  }
+  .pro
+  {
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(36, 0, 94, 0.6) , 0 15px 25px rgba(36, 0, 94, 0.6);
+    background-color:lightcoral;
+  }

@@ -1,0 +1,199 @@
+body{
+  
+  background: url("sb2.png") no-repeat center fixed ;
+  background-size: cover;
+  overflow: hidden;
+  
+
+
+}
+img.logo
+{
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: -1.5vw;
+    padding-right: 1.5vw; 
+   
+  
+   
+}
+h1
+{
+    font-size: 5vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(0, 59, 59);
+    margin-top: -1.5vw;
+    
+}
+.header
+{
+    background-color: rgba(42, 177, 170, 0.8) ;
+   
+    border-radius: 1.2%;
+   
+}
+a.logout
+{
+   
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    color:black;
+    font-size: 1.3vw;
+    float: right;
+    margin-right: 2vw;
+    margin-top: -7vw;
+    padding-bottom: 1vw;
+
+    
+  
+   
+}
+
+
+
+a.logout:hover
+{
+   
+    background-color: rgb(116, 42, 165);
+    padding: 1vw;
+    border-radius: 5%;
+    color: darkorange;
+  
+
+
+}
+img.bg
+{
+
+margin-top: -3.4vw;
+padding-top: 0%;
+margin-bottom: -3vw;
+margin-left: -0.4vw;
+width: 101%;
+height: 0%;
+}
+
+
+
+ul
+{
+  list-style: none;
+  
+ 
+ 
+  margin-top: -44vw;
+  margin-right: 1.7vw;
+  
+  
+  
+}
+
+li{
+  
+
+list-style: none;
+text-decoration: none;
+padding-bottom: 8vw;
+text-align: center;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.sb
+{
+text-decoration: none;
+font-family: 'Fredoka One', cursive;
+  
+    color:	#a1ff0a;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1vw;
+    border: 1vw solid #FF1700;
+    cursor: pointer;
+    background: url(bb2.gif);
+  
+    
+    
+
+
+
+}
+
+a.sb:hover
+{
+  box-shadow:0 0 5px #F7FD04, 0 0 25px #F7FD04, 0 0 50px #F7FD04,0 0 200px #F7FD04 ;
+  background: url(bb4.gif) ;
+  background-size: cover;
+  border-radius: 1vw;
+
+
+}
+
+
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  
+  margin-left: 28vw;
+  margin-top: -15vw;
+ 
+}
+.dropdown {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin-left: 38.2vw;
+  
+}
+
+.dropdown-content  a{
+  
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  color:	#FF1700;
+  font-size: 2vw;
+  text-align: center;
+  padding: 0.7vw;
+  border: 0.5vw solid #a1ff0a;
+  background: url(bb2.gif);
+  display: block;
+  margin-bottom: 1.5vw;
+ 
+}
+.dropdown-content  a:hover
+{
+  box-shadow:0 0 5px #ff1474, 0 0 25px #ff1474, 0 0 50px #ff1474,0 0 200px #ff1474 ;
+  background: url(bb4.gif) ;
+  background-size: cover;
+  border-radius: 0.5vw;
+
+
+}
+
+.show {display: block;}
+

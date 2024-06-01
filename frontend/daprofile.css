@@ -1,0 +1,121 @@
+body{
+  
+  background: url("sb2.png") no-repeat center fixed ;
+  background-size: cover;
+  overflow: hidden;
+
+}
+img.logo
+{
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: -1.5vw;
+    padding-right: 1.5vw; 
+   
+  
+   
+}
+h1
+{
+    font-size: 5vw;
+    font-family: 'Bungee Inline', cursive;
+    color:rgb(0, 59, 59);
+    margin-top: -1.5vw;
+    
+}
+.header
+{
+    background-color: rgba(42, 177, 170, 0.8) ;
+   
+    border-radius: 1.2%;
+   
+}
+a.logout
+{
+   
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+    color:black;
+    font-size: 1.3vw;
+    float: right;
+    margin-right: 2vw;
+    margin-top: -7vw;
+    padding-bottom: 1vw;
+
+    
+  
+   
+}
+
+
+
+a.logout:hover
+{
+   
+    background-color: rgb(116, 42, 165);
+    padding: 1vw;
+    border-radius: 5%;
+    color: darkorange;
+  
+
+
+}
+img.bg
+{
+
+margin-top: -3.4vw;
+padding-top: 0%;
+margin-bottom: -3vw;
+margin-left: -0.4vw;
+width: 101%;
+height: 0%;
+}
+ul
+{
+  list-style: none;
+  
+  margin-left: 60vw;
+ 
+  margin-top: -48vw;
+  
+  
+}
+
+li{
+  
+
+list-style: none;
+text-decoration: none;
+padding-bottom: 10vw;
+text-align: center;
+
+
+}
+a.sb
+{
+text-decoration: none;
+font-family: 'Fredoka One', cursive;
+  
+    color:ivory;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1vw;
+    border: 0.5vw ridge #00308F;
+    cursor: pointer;
+    background: url(u1.gif);
+    background-size: cover;
+    
+
+
+
+}
+
+a.sb:hover
+{
+  box-shadow:0 0 5px #FFF600, 0 0 25px #FFF600, 0 0 50px #FFF600,0 0 200px #FFF600 ;
+  background: url(u2.gif) ;
+  background-size: cover;
+  border-radius: 1vw;
+
+
+}
